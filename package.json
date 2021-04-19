@@ -1,0 +1,24 @@
+{
+	"name": "hci-socket",
+	"version": "1.0.0",
+	"dependencies": {
+		"bindings": "~1.5.0",
+		"node-addon-api": "^3.0.0"
+	},
+	"os": [
+		"linux"
+	],
+	"main": "./lib/hci-socket.js",
+	"repository": "github:Emill/node-hci-socket",
+	"homepage": "https://github.com/Emill/node-hci-socket",
+	"bugs": "https://github.com/Emill/node-hci-socket/issues",
+	"license": "ISC",
+	"keywords": [
+		"bluetooth",
+		"hci",
+		"bluetooth-hci-socket",
+		"node-hci-socket",
+		"node-bluetooth-hci-socket"
+	],
+	"description": "Linux bindings for using a Bluetooth controller in Node.js over HCI."
+}
